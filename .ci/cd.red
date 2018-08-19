@@ -8,4 +8,3 @@ do https://quickrun.red/git-commit
 cd %../
 commit {Mobirise}
 
-
