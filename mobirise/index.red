@@ -2,13 +2,19 @@ Red [
     Title: "index.red"
 ]
 
+do https://redlang.red/templating
 .html-header: function [
     /no-cache
     /title >title
     /angular >version
     /data >data-path
 ][
-    return read https://templates.red/mobirise/res/index.template.html
+
+    template: read https://templates.red/mobirise/res/index.template.html
+    output: render/data template [
+        title: (title)
+    ]
+    return output
 
 ]
 html-header: :.html-header
