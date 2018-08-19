@@ -8,7 +8,8 @@ Red [
     /angular >version
     /data >data-path
 ][
-    return ""
+    return read https://templates.red/mobirise/res/index.template.html
+
 ]
 html-header: :.html-header
 
