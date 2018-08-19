@@ -6,7 +6,7 @@ Red [
     /no-cache
     /title >title
     /angular >version
-    /data-path >data-path
+    /data >data-path
 ][
     return ""
 ]
