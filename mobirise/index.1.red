@@ -18,7 +18,7 @@ do https://redlang.red/templating
 
 
     template: read https://templates.red/mobirise/res/index.template.html
-    output: render/data/only template template-settings
+    output: render/data template template-settings
     return output
 
 ]
