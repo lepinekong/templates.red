@@ -6,14 +6,19 @@ do https://redlang.red/templating
 .html-header: function [
     /no-cache
     /title >title
-    /angular >version
+    /angular >angular-version
     /data >data-path
 ][
 
-    template: read https://templates.red/mobirise/res/index.template.html
-    output: render/data template [
-        title: (title)
+    template-settings: [
+        angular-version: (>angular-version)
+        title: (>title)
+        data-path: (>data-path)
     ]
+
+
+    template: read https://templates.red/mobirise/res/index.template.html
+    output: render/data template template-settings
     return output
 
 ]
