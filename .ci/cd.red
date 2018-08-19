@@ -6,5 +6,5 @@ do https://redlang.red/dot.do
 .do/redlang [cd]
 do https://quickrun.red/git-commit
 cd %../
-commit {Mobirise}
+commit {Fix Mobirise   <script src=<%data-path%>></script>}
 
