@@ -31,8 +31,12 @@ html-header: :.html-header
 header-page: :.get-header-page
 
 .get-section-title: function [>section-title][
-    it: read https://templates.red/mobirise/res/section-title.html
-    return it 
+    ; it: read https://templates.red/mobirise/res/section-title.html
+    ; return it 
+
+    return it: render/data https://templates.red/mobirise/res/section-title.html [
+        section-title: (>section-title)
+    ]     
 ]
 section-title: :.get-section-title
 
