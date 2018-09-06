@@ -15,6 +15,7 @@ if file [
 
     switch/default extension [
         "html" [
+            .redlang [html-embed]
             src: html-embed
             if confirm (rejoin [{Write to } file { ?}]) [
                 write file src
