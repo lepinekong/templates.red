@@ -2,9 +2,6 @@ Red [
     Title: ""
 ]
 
-if not value? '.redlang [
-    do https://redlang.red
-]
 .redlang [script-path get-short-filename confirm]
 
 file: get-script-file
@@ -14,7 +11,7 @@ if file [
     extension: block/2
 
     switch/default extension [
-        "html" [
+        "js" [
             src: html-embed
             if confirm (rejoin [{Write to } file { ?}]) [
                 write file src
@@ -24,8 +21,8 @@ if file [
         block: split form file "."
         prefix: block/1       
         switch/default prefix [
-            "cd" [
-                src: "template cd"
+            "server" [
+                src: "template server.js"
                 if confirm (rejoin [{Write to } file { ?}]) [
                     write file src
                 ]            
@@ -35,7 +32,3 @@ if file [
         ]
     ]
 ]
-
-
-
-
