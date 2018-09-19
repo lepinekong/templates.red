@@ -16,7 +16,7 @@ au capital de <%MONTANT_CAPITAL%> euros (capital librement fixé)
 Siège social : <%ADRESSE_SIEGE_SOCIAL%>
 }
 
-    Subtitle: {Le soussigné
+    Sub-title: {Le soussigné
 <%NOM_ASSOCIE_UNIQUE%>
 <%NE_OU_NEE%> le <%DATE_NAISSANCE_ASSOCIE_UNIQUE%> à <%LIEU_NAISSANCE_ASSOCIE_UNIQUE%>
 demeurant à <%ADRESSE_RESIDENCE_ASSOCIE_UNIQUE%>
