@@ -19,7 +19,7 @@ if not exists? deploy-source [
 ]
 
 production-folder: D:\myprojects\Red\templates.red\.github\
-deploy-target: rejoin [production-folder %redlang\template.SASU.un-associé.100pc.CDC %.red]
+deploy-target: rejoin [production-folder %creation-entreprise\template.SASU.un-associé.100pc.CDC %.red]
 folder-ci: D:\myprojects\Red\templates.red\.ci\.github
 
 deploy-param: compose [
