@@ -10,9 +10,12 @@ APPORTS - CAPITAL SOCIAL - FORME DES ACTIONS - TRANSMISSION ET INDIVISIBILITE DE
 
 Une somme en numéraire de <%APPORT_EN_NUMERAIRE_EN_TOUTES_LETTRES%> euros, ci <%APPORT_EN_NUMERAIRE_EN_CHIFFRES%> euros, correspondant à <%NOMBRE_ACTIONS%> actions de <%VALEUR_UNE_SEULE_ACTION%> euros, souscrites en totalité et libérées intégralement ainsi que l'atteste le certificat du dépositaire établi le <%DATE_CERTIFICAT_DEPOT%> par la Banque <%BANQUE_DEPOT%> sise au <%ADRESSE_BANQUE%>.
 
-Cette somme de <%APPORT_EN_NUMERAIRE_EN_TOUTES_LETTRES%> euros, ci <%APPORT_EN_NUMERAIRE_EN_CHIFFRES%> euros, a été déposée le <%DATE_DEPOT%> à ladite banque pour le compte de la S.A.S.U. <%NOM_SOCIETE%> en formation.
-}
-    .meta-info: {les montants indiqués valent d’exemple et peuvent être divisés comme bon le semble, mais dans le cadre d’une cession des actions future, il est préférable avoir un nombre d’actions d’un petit montant}
+La somme <%APPORT_EN_NUMERAIRE_EN_CHIFFRES%> € a été déposée sur un compte ouvert au nom de la société en formation auprès de la Caisse des dépôts et consignations, conformément aux dispositions de la loi n°2001-420 du 15 mai 2001}
+
+    .meta-info: {les montants indiqués valent d’exemple et peuvent être divisés comme bon le semble, mais dans le cadre d’une cession des actions future, il est préférable avoir un nombre d’actions d’un petit montant
+    
+    Pour la Caisse des dépôts et consignation la mention doit être suivante : « la somme XXX € a été déposée sur un compte ouvert au nom de la société en formation auprès de la Caisse des dépôts et consignations, conformément aux dispositions de la loi n°2001-420 du 15 mai 2001 » 
+    }
     ]
 
     Article-7: [
