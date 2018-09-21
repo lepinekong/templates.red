@@ -37,7 +37,7 @@ est une société par actions simplifiée unipersonnelle régie par les disposit
         .title: {Article 2 - Objet:}
         .text: {La S.A.S.U. <%NOM_SOCIETE%> a pour objet directement ou indirectement, en France et à l'étranger : 
 
-<%DESCRIPTION_OBJET_SOCIAL_SOCIETE%>
+<%DESCRIPTION_OBJET_SOCIAL_SOCIETE/area%>
 
 - la participation de la S.A.S.U. <%NOM_SOCIETE%>, par tous moyens, à toutes entreprises ou sociétés créées ou à créer, pouvant se rattacher à l'objet social, notamment par voie de création de sociétés nouvelles, d'apport, commandite, souscription ou rachat de titres ou droits sociaux, fusion, alliance ou association en participation ou groupement d'intérêt économique ou de location gérance ;
 
