@@ -23,7 +23,7 @@ if not value? '>commit-message [
 
 .cd (>target-path) 
 
-if not exists? (to-red-file >target-path) [
+if not exists? (to-red-file form >target-path) [
     print [>target-path "doesn't exist !!!" ]
     quit
 ]
