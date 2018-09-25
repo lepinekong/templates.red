@@ -19,7 +19,7 @@ if not value? '.redlang [
 if not value? '>commit-message [
     >commit-message: ask "commit message: "
 ]
-.log (>commit-message)
+.log %commit.log (>commit-message)
 
 .cd (>target-path) 
 
